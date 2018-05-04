@@ -1,0 +1,40 @@
+body {
+    background: black;
+    z-index: 0;
+}
+
+#image_container{
+    display: none;
+}
+
+#image_container img{
+    position: relative;
+}
+
+.smart-button{
+    z-index: 5;
+    left: 50%;
+    bottom: 10%;
+}
+
+.following-list{
+    display: initial;
+    float: left;
+    position: fixed;
+    z-index: 2;
+    left: 10%;
+    top:20%;
+}
+
+.team-player img{
+    max-height: 200px;
+}
+
+.team-player h4{
+    font-size: 12px;
+}
+
+#users-search button{
+    float: right;
+    margin-right: 15%;
+}
